@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  background-color: rgb(39, 39, 39);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+}
+
+section {
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  justify-items: center;
+}
+
+#capture {
+  background-color: burlywood;
+  font-size: 2rem;
+  overflow: hidden;
+  height: 700px;
+  width: 600px;
+}
+
+#quote-text {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+}
